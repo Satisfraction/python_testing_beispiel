@@ -14,7 +14,11 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo "Deliver...."
+                script {
+                    def pytestOutput = sh(script: "python3 -m pytest", returnStdout: true)
+                    echo "Deliver...."
+                    echo "Pytest output: ${pytestOutput}"
+                }
             }
         } 
     }
