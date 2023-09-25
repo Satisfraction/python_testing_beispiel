@@ -1,0 +1,4 @@
+Selenium ist ein Framework für automatisierte Softwaretests von Webanwendungen, das verschiedene Programmiersprachen unterstützt. 
+Selenium kann in einer Jenkins Pipeline verwendet werden, um die Webanwendung in verschiedenen Stadien, Browsern, Umgebungen und Szenarien zu testen. 
+Dazu muss man Selenium-Bibliotheken und -Treiber installieren, Testskripte schreiben oder aufnehmen, 
+Testskripte in der Pipeline aufrufen oder ausführen und Testergebnisse anzeigen oder analysieren.
