@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'python3 ops.py'
+                sh 'python3 programm.py'
             }
         }
         stage('Testing file') {
